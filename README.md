@@ -8,7 +8,7 @@ Code example showing same example as link above implemented in this client
 
 ```php
 <?php
-use Stadskle\PeriscopeData\EmbedUrl;
+use Bokbasen\PeriscopeData\EmbedUrl;
 $data = [
             'dashboard' => 7863,
             'embed' => 'v2',

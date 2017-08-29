@@ -1,23 +1,23 @@
 {
-    "name": "stadskle/periscopedata",
+    "name": "bokbasen/php-sdk-periscopedata",
     "license": "MIT",
     "type": "library",
     "description": "PHP Client for working with periscopedata",
-    "homepage": "https://github.com/stadskle/periscopedata",
+    "homepage": "https://github.com/Bokbasen/php-sdk-periscopedata",
     "autoload": {
         "psr-4" : {
-            "Stadskle\\PeriscopeData\\" : "src"
+            "Bokbasen\\PeriscopeData\\" : "src"
         }
     },
      "autoload-dev": {
         "psr-4": { 
-            "Stadskle\\PeriscopeData\\Tests\\" : "tests"
+            "Bokbasen\\PeriscopeData\\Tests\\" : "tests"
         }
     },
      "authors": [
         {
             "name": "Ketil Stadskleiv",
-            "email": "ketil@stadskleiv.no"
+            "email": "ketil@bokbasen.no"
         }
     ],
      "require-dev": {

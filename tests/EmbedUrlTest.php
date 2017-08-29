@@ -1,7 +1,7 @@
 <?php
-namespace Stadskle\PeriscopeData\Tests;
+namespace Bokbasen\PeriscopeData\Tests;
 
-use Stadskle\PeriscopeData\EmbedUrl;
+use Bokbasen\PeriscopeData\EmbedUrl;
 
 /**
  * Tests based on values given on periscope data wiki: https://doc.periscopedata.com/docv2/embed-api

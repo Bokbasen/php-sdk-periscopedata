@@ -1,5 +1,5 @@
 <?php
-namespace Stadskle\PeriscopeData;
+namespace Bokbasen\PeriscopeData;
 
 /**
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
