@@ -1,4 +1,5 @@
 <?php
+
 namespace Bokbasen\PeriscopeData;
 
 /**
@@ -15,30 +16,28 @@ namespace Bokbasen\PeriscopeData;
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
+
 /**
  * Class to create embeded URLs to use with periscopedata.com
  *
- * @link https://doc.periscopedata.com/docv2/embed-api
+ * @link    https://doc.periscopedata.com/docv2/embed-api
  * @license https://opensource.org/licenses/MIT
  */
 class EmbedUrl
 {
+    const PATH = '/api/embedded_dashboard';
+    const URL = 'https://www.periscopedata.com';
 
     /**
-     *
      * @var string
      */
     protected $apiKey;
 
     /**
-     *
      * @var array
      */
     protected $options;
 
-    const PATH = '/api/embedded_dashboard';
-
-    const URL = 'https://www.periscopedata.com';
 
     public function __construct($apiKey, array $options = [])
     {
